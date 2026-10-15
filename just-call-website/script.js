@@ -12,7 +12,7 @@ nav?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
 document.querySelector('#year').textContent = new Date().getFullYear();
 
 // Set this to your public app repository, e.g. 'your-username/just-call'.
-const GITHUB_REPOSITORY = '';
+const GITHUB_REPOSITORY = 'carbonanik/just_call';
 
 const downloadLink = document.querySelector('#download-link');
 const downloadHint = document.querySelector('#download-hint');
